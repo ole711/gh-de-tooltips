@@ -1,0 +1,28 @@
+name: Fehlerbericht
+description: Etwas funktioniert nicht wie erwartet
+title: "[Bug] Kurze Beschreibung"
+labels: ["bug"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Wo ist es passiert?
+      description: URL oder Bereich (z. B. Repo-Header, PR-Liste)
+      placeholder: https://github.com/...
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Was hast du erwartet, was ist stattdessen passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot
+      description: Optional, hilft bei der Einordnung
+  - type: input
+    id: version
+    attributes:
+      label: Add-on Version
+      placeholder: z. B. v0.2.1
