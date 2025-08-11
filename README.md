@@ -28,6 +28,7 @@ Fokus: DACH-Einsteiger/innen. Ein Satz, alltagstauglich, ohne Fachchinesisch.
 
 ## Changelog
 - **v0.2.1 (MVP)**: robuste Erkennung (Zähler, `aria-label`, `aria-labelledby`, Doppelpunkte), Star/Watch-Fix.
+- [v0.2.1] – MVP veröffentlicht
 
 ## Lizenz
 MPL-2.0
