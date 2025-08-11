@@ -1,0 +1,24 @@
+name: Begriff vorschlagen
+description: Neuer GitHub-Begriff/Label mit deutscher Kurz-Erklärung
+title: "[Begriff] <UI-Text>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: UI-Begriff (genau wie in GitHub)
+      placeholder: z. B. Compare & pull request
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Wo taucht er auf?
+      description: Seite/Abschnitt + URL/Screenshot
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Dein 1-Satz-Vorschlag (DE)
+      placeholder: Kurz, alltagstauglich, ohne Jargon
+    validations:
+      required: true
