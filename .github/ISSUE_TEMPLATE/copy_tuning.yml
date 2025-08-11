@@ -1,0 +1,25 @@
+name: Text-Feinschliff
+description: Bestehende Erklärung verbessern
+title: "[Text] <UI-Begriff>"
+labels: ["copywriting"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: UI-Begriff
+      placeholder: z. B. Pull request
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Aktueller Tooltip-Text
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Dein Verbesserungsvorschlag
+      placeholder: Ein Satz, alltagstauglich
+    validations:
+      required: true
